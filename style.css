@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(226, 234, 247);
+}
+code{
+    background-color: rgb(rgb(54, 52, 52));
+}
+.main{
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.main_about{
+    width: 60%;
+    font-size: medium;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.main_contacts{
+    display: flex;
+    flex-direction: row;
+}
+.main_codeExample{
+    width: 550px;
+    background-color: rgb(202, 201, 201);
+}
