@@ -1,5 +1,4 @@
 # **Kalinov Alexander**  
-<img src=./IMG.png width=240px></img>  
 - **Location:** Grodno, Belarus
 - **Date of birth**: 1994  
 - **Phone**: +375 25 754-37-42
