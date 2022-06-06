@@ -1,0 +1,109 @@
+*{
+    list-style: none;
+}
+body{
+    margin: 0 0;
+    padding: 0 0;
+    background-color: rgb(231, 229, 218);
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 1200px;
+    height: 1024px;
+    background-color: rgb(255, 255, 255);
+}
+
+.wrapper__center{
+    margin: 0 auto;
+    width: 1100px;
+    height: 1024px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(14, 14, 14);
+}
+
+.header{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    border: 1px solid red;
+}
+
+.header__logo{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    border: 1px solid black;
+    align-self: center;
+    background-image: url(/assets/IMG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__name{
+    width: 150px;
+    height: 80px;
+    align-self: center;
+    margin-left: 70px;
+    font-style: italic;
+    font-size: 34px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.header__contacts{
+    width: 400px;
+    height: 170px;
+    margin-left: 70px;
+    align-self: center;
+}
+.header__contacts__item{
+    font-style: italic;
+    font-size: 20px;
+}
+
+.header__contacts__item::before{
+    content: "";
+    position: absolute;
+    margin-top: 2px;
+    margin-left: -25px;
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+}
+
+.item1::before{
+    background-image: url(/assets/home-icon-silhouette.png); 
+}
+
+.item2::before{
+    background-image: url(/assets/calendar.png);
+}
+
+.item3::before{
+    background-image: url(/assets/viber.png); 
+}
+
+.item4::before{
+    background-image: url(/assets/letter.png);
+}
+
+.item5::before{
+    background-image: url(/assets/linkedin.png); 
+}
+
+.item6::before{
+    background-image: url(/assets/github.png);
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none; 
+}
+a:hover{
+    color: aqua !important;
+    transition: 0.25s ;
+}
+a:visited{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
