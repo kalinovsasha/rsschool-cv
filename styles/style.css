@@ -36,12 +36,15 @@ body{
     height: 480px;
     border: 1px solid black;
     align-self: center;
-    background-image: url(/assets/IMG.png);
     background-repeat: no-repeat;
     background-size: cover;
     font-style:inherit;
     font-size: 18px;
     font-weight: 500;
+    /****************/
+    object-fit: cover;
+    outline: none;
+    border: none;
 }
 
 .main__left__contacts{
