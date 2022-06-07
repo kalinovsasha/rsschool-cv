@@ -98,19 +98,19 @@
                     </section>
                     <section class="main__code-example">
                         <h2 class="main__right__h2">Code examples</h2>
-                        <pre>
+                        <pre class="main__code-example_code">
                             <code class="lang-js">
-                                function disemvowel(str) {
-                                    let mask= ["A","E", "I", "O", "U","a","e","i","o","u"];
-                                    let newStr=str.split("");
-                                    let newMas=[];
-                                        for (let i of newStr) {
-                                            if (mask.indexOf(i)==-1) {
-                                             newMas.push(i);
-                                            }
-                                        }
-                                    return newMas.join("");;
-                                    }
+function disemvowel(str) {
+    let mask= ["A","E", "I", "O", "U","a","e","i","o","u"];
+    let newStr=str.split("");
+    let newMas=[];
+    for (let i of newStr) {
+        if (mask.indexOf(i)==-1) {
+        newMas.push(i);
+        }
+    }
+    return newMas.join("");;
+}
                             </code>
                         </pre>
                     </section>
@@ -147,7 +147,7 @@
             </footer>
         </div>
     </div>
+    <script src="/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
-<script src="/highlight.min.js"></script>
-<script>hljs.highlightAll();</script>
 </html>
