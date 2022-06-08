@@ -73,27 +73,27 @@ body{
 }
 
 .item1::before{
-    background-image: url(/assets/home-icon-silhouette.png); 
+    background-image: url(./assets/home-icon-silhouette.png); 
 }
 
 .item2::before{
-    background-image: url(/assets/calendar.png);
+    background-image: url(./assets/calendar.png);
 }
 
 .item3::before{
-    background-image: url(/assets/viber.png); 
+    background-image: url(./assets/viber.png); 
 }
 
 .item4::before{
-    background-image: url(/assets/letter.png);
+    background-image: url(./assets/letter.png);
 }
 
 .item5::before{
-    background-image: url(/assets/linkedin.png); 
+    background-image: url(./assets/linkedin.png); 
 }
 
 .item6::before{
-    background-image: url(/assets/github.png);
+    background-image: url(./assets/github.png);
 }
 a{
     color: rgb(0, 0, 0);
@@ -211,7 +211,7 @@ a:visited{
     height: 30px;
     background-size: contain;
     align-self: center;
-    background-image: url(/assets/github.png);
+    background-image: url(./assets/github.png);
 }
 
 .footer__year{
@@ -225,7 +225,7 @@ a:visited{
     margin-right: 20px;
     width: 100px;
     height: 35px;
-    background-image: url(/assets/rs_school_js.svg);
+    background-image: url(./assets/rs_school_js.svg);
     background-repeat: no-repeat;
     background-size: contain;
     align-self: center;
