@@ -13,12 +13,21 @@
     <div class="wrapper">
         <div class="wrapper__center">
             <header class="header">
+                <nav class="header__nav">
+                    <ul class="nav">
+                        <li><a href="#contacts">Contacts</a></li>
+                        <li><a href="#edu">Education</a></li>
+                        <li><a href="#exp">Experience</a></li>
+                        <li><a href="#code">Code examples</a></li>
+                        <li><a href="#projects">My projects</a></li>
+                    </ul>
+                </nav>
             </header>   
             
             <main class="main">
                 <div class="main__left">
                     <img class="header__logo" alt="foto" src="/assets/IMG.png"/>
-                    <h2>Contacts</h2>
+                    <h2 id="contacts">Contacts</h2>
                     <div class="main__left__contacts">
                         <ul>
                             <li class="main__left__contacts__item item1"><b>Location: </b> Grodno, Belarus</li>
@@ -30,7 +39,7 @@
                         </ul>
                     </div>
                     <section class="main__left__education">
-                        <h2>Education</h2>
+                        <h2 id="edu">Education</h2>
                         <ul>
                             <li>2013 Polytechnic College </li>
                             <li>2017 Yanka Kupala State University of Grodno, physico-technical faculty (bachelor's degree)</li>
@@ -62,20 +71,20 @@
                     <section class="main__right__skills">
                         <h2 class="main__right__h2">Skills</h2>
                         <ul>
-                            <li>Engineering</li>
-                            <li>Linux</li>
-                            <li>Bash</li>
-                            <li>Zabbix</li>
-                            <li>Routing and Switching</li>
-                            <li>Mikrotik, Cisco</li>
-                            <li>Docker</li>
-                            <li>Git</li>
-                            <li>Html5</li>
-                            <li>CSS</li>
-                            <li>Sass</li>
-                            <li>Nodejs</li>
-                            <li>JavaScript</li>
-                            <li>TypeScript</li>   
+                            <li><img src="/assets/icons/Engineering.png" alt="Engineering" wwidth="20" height="20">  Engineering</li>
+                            <li><img src="/assets/icons/linux.png" alt="Engineering" width="20" height="20">  Linux</li>
+                            <li><img src="/assets/icons/bash.png" alt="Engineering" width="20" height="20">  Bash</li>
+                            <li><img src="/assets/icons/zabbix.png" alt="Engineering" width="20" height="20">  Zabbix</li>
+                            <li><img src="/assets/icons/routing.png" alt="Engineering" width="20" height="20">  Routing and Switching</li>
+                            <li><img src="/assets/icons/cisco.png" alt="Engineering" width="20" height="20">  Mikrotik, Cisco</li>
+                            <li><img src="/assets/icons/docker_icon_132435.png" alt="Engineering" width="20" height="20">  Docker</li>
+                            <li><img src="/assets/icons/vc-git_icon-icons.com_50729.png" alt="Engineering" width="20" height="20">  Git</li>
+                            <li><img src="/assets/icons/html.png" alt="Engineering" width="20" height="20">  Html5</li>
+                            <li><img src="/assets/icons/css.png" alt="Engineering" width="20" height="20">  CSS</li>
+                            <li><img src="/assets/icons/sass.png" alt="Engineering" width="20" height="20">  Sass</li>
+                            <li><img src="/assets/icons/node_icon_196185.png" alt="Engineering" width="20" height="20">  Nodejs</li>
+                            <li><img src="/assets/icons/js.png" alt="Engineering" width="20" height="20">  JavaScript</li>
+                            <li><img src="/assets/icons/ts.png" alt="Engineering" width="20" height="20">  TypeScript</li>   
                         </ul>
                     </section>
                     <section class="main__key-strengths">
@@ -89,7 +98,7 @@
                         </ul>
                     </section>
                     <section class="main__experiences">
-                        <h2 class="main__right__h2">Experience</h2>
+                        <h2 id="exp" class="main__right__h2">Experience</h2>
                         <ul>
                             <li>2012-2012 Conte, computer operator </li>
                             <li>2015-2017, Beltelecom, technical support </li>
@@ -99,7 +108,7 @@
                     <section class="main__code-example">
                         <h2 class="main__right__h2">Code examples</h2>
                         <pre class="main__code-example_code">
-                            <code class="lang-js">
+                            <code id="code" class="lang-js">
 function disemvowel(str) {
     let mask= ["A","E", "I", "O", "U","a","e","i","o","u"];
     let newStr=str.split("");
@@ -109,13 +118,13 @@ function disemvowel(str) {
         newMas.push(i);
         }
     }
-    return newMas.join("");;
+    return newMas.join("");
 }
                             </code>
                         </pre>
                     </section>
                     <section class="main__my-projects">
-                        <h2 class="main__right__h2">My projects</h2>
+                        <h2 id="projects" class="main__right__h2">My projects</h2>
                         <div class="main__my-projects__container">
                             <a href="https://github.com/kalinovsasha/shelter-rsschool" target="_blank">
                                 <div class="main__my-projects__container__item">
