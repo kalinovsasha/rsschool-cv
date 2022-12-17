@@ -1,0 +1,22 @@
+{
+  "name": "rsschool-cv",
+  "version": "1.0.0",
+  "description": "https://kalinovsasha.github.io/rsschool-cv/cv  \r https://kalinovsasha.github.io/rsschool-cv/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalinovsasha/rsschool-cv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalinovsasha/rsschool-cv/issues"
+  },
+  "homepage": "https://github.com/kalinovsasha/rsschool-cv#readme",
+  "devDependencies": {
+    "linthtml-config-htmlacademy": "^1.0.3"
+  }
+}
